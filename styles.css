@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #ff5722;
+  background: linear-gradient(to bottom, #ff5722, #ff3d00); /* czerwono-pomarańczowe tło */
   color: #fff;
   line-height: 1.6;
 }
@@ -36,7 +36,7 @@ header nav ul li a {
 }
 
 #hero {
-  background-color: #ff3d00;
+  background: linear-gradient(to bottom, #ff7043, #ff5722); /* gradient tła od pomarańczowego do czerwonego */
   color: #fff;
   text-align: center;
   padding: 50px 20px;
@@ -60,7 +60,7 @@ header nav ul li a {
 #features, #pricing {
   padding: 40px 20px;
   text-align: center;
-  background-color: #ff7043;
+  background: linear-gradient(to bottom, #ff7043, #ff5722); /* gradient tła */
 }
 
 .feature-card {
