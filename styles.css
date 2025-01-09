@@ -1,93 +1,9 @@
-/* Resetowanie domyślnych stylów */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(to right, #d50000, #ff5722); /* Ciemniejszy czerwony do intensywnego pomarańczowego */
-  color: #fff;
-  line-height: 1.6;
-}
-
-header {
-  background-color: #b71c1c; /* Ciemniejszy czerwony nagłówek */
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-header nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-header nav ul li {
-  display: inline;
-  margin: 0 10px;
-}
-
-header nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-#hero {
-  background: linear-gradient(to right, #d50000, #ff5722); /* Gradient mocny czerwony do pomarańczowego */
-  color: #fff;
-  text-align: center;
-  padding: 50px 20px;
-}
-
-#hero .cta-button {
-  background-color: #fff;
-  color: #d50000;
-  padding: 15px 30px;
-  font-size: 20px;
-  border: none;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-#hero .cta-button:hover {
-  background-color: #ff5722;
-  transition: background-color 0.3s ease;
-}
-
-#features, #pricing {
-  padding: 40px 20px;
-  text-align: center;
-  background: linear-gradient(to top, #d50000, #ff5722); /* Gradient z dołu do góry */
-}
-
-.feature-card {
-  display: inline-block;
-  background-color: #ff7043; /* Intensywny pomarańczowy */
-  padding: 20px;
-  margin: 10px;
-  width: 30%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.feature-card h3 {
-  font-size: 24px;
-  margin-bottom: 15px;
-}
-
-.feature-card p {
-  font-size: 16px;
-  color: #333;
-}
-
 #pricing .pricing-plan {
   display: inline-block;
   background-color: #ff7043; /* Intensywny pomarańczowy dla planów */
   padding: 30px;
   margin: 15px;
-  width: 30%;
+  width: 23%; /* Dostosowanie szerokości do 7 planów */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   transition: transform 0.3s ease;
@@ -121,19 +37,4 @@ header nav ul li a {
 
 .plan-button:hover {
   background-color: #ff5722;
-}
-
-footer {
-  background-color: #b71c1c; /* Ciemniejszy czerwony footer */
-  color: #fff;
-  padding: 30px 20px;
-  text-align: center;
-}
-
-footer h2 {
-  margin-bottom: 10px;
-}
-
-footer p {
-  font-size: 16px;
 }
