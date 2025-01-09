@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(to right, #e60000, #ff8000); /* Mocniejszy czerwony do intensywnego pomarańczowego */
+  background: linear-gradient(to right, #d50000, #ff5722); /* Ciemniejszy czerwony do intensywnego pomarańczowego */
   color: #fff;
   line-height: 1.6;
 }
@@ -36,7 +36,7 @@ header nav ul li a {
 }
 
 #hero {
-  background: linear-gradient(to right, #e60000, #ff8000); /* Czerwono-pomarańczowy gradient */
+  background: linear-gradient(to right, #d50000, #ff5722); /* Gradient mocny czerwony do pomarańczowego */
   color: #fff;
   text-align: center;
   padding: 50px 20px;
@@ -44,7 +44,7 @@ header nav ul li a {
 
 #hero .cta-button {
   background-color: #fff;
-  color: #e60000;
+  color: #d50000;
   padding: 15px 30px;
   font-size: 20px;
   border: none;
@@ -53,19 +53,19 @@ header nav ul li a {
 }
 
 #hero .cta-button:hover {
-  background-color: #e64a19;
+  background-color: #ff5722;
   transition: background-color 0.3s ease;
 }
 
 #features, #pricing {
   padding: 40px 20px;
   text-align: center;
-  background: linear-gradient(to top, #e60000, #ff8000); /* Czerwono-pomarańczowy gradient */
+  background: linear-gradient(to top, #d50000, #ff5722); /* Gradient z dołu do góry */
 }
 
 .feature-card {
   display: inline-block;
-  background-color: #ff6347; /* Intensywny pomarańczowy */
+  background-color: #ff7043; /* Intensywny pomarańczowy */
   padding: 20px;
   margin: 10px;
   width: 30%;
@@ -84,7 +84,7 @@ header nav ul li a {
 
 #pricing .pricing-plan {
   display: inline-block;
-  background-color: #ff6347; /* Intensywny pomarańczowy dla planów */
+  background-color: #ff7043; /* Intensywny pomarańczowy dla planów */
   padding: 30px;
   margin: 15px;
   width: 30%;
@@ -109,7 +109,7 @@ header nav ul li a {
 
 .plan-button {
   display: inline-block;
-  background-color: #e60000; /* Czerwony przycisk */
+  background-color: #d50000; /* Czerwony przycisk */
   color: #fff;
   padding: 12px 20px;
   font-size: 16px;
@@ -120,7 +120,7 @@ header nav ul li a {
 }
 
 .plan-button:hover {
-  background-color: #e64a19;
+  background-color: #ff5722;
 }
 
 footer {
